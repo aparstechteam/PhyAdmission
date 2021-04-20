@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  height: 100vh;
+}
+
+.container {
+  font-size: 1.2rem;
+  font-family: "SolaimanLipi", sans-serif;
+  text-align: center;
+  margin: 1.5rem 1.5rem;
+  max-width: 600px;
+  padding: 1.3rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 8px 32px 0 #0f0c29;
+
+}
